@@ -1,9 +1,8 @@
 // import { serviceHTML } from "./services.js";
-import { serviceHTML } from "./parks.js";
+import { parkListHTML } from "./parks.js";
 
-const serviceHTMLString = serviceHTML ()
+const parkHTMLString = parkListHTML()
 
-const parentHTMLElement = document.querySelector(".services")
+const parentHTMLElement = document.querySelector("#container")
 
-parentHTMLElement.innerHTML = serviceHTMLString
-console.log(serviceHTML(3))
+parentHTMLElement.innerHTML = parkHTMLString

@@ -4,25 +4,49 @@ import { getServices } from "./database.js";
 // write  function that iterates through parks and displays them by name 
 //  correlate services to park 
 
-export const parkList = () => {
+export const parkListHTML = () => {
     
-    
+    let htmlString = `
+    <section>
+        <h2>Park</h2>
+        <div>
+            ${parkCard()}
+        </div>
+    </section>
+    `
+    return htmlString
 }
 const parkServices = getParkServices()
-const parks = getParks()
+const Parks = getParks()
+const parkCard = () => {
+    let parkCardHTML = ``
+    for ( const park of Parks) {
+        let parkId = park.id
+        parkCardHTML += `
+        <div class="park-card">
+            <h3 class="park-name" id="park--${park.name}">${park.name}</h3>
+            <h4>Services</h4>
+            <ul class="destination-card-service-list">
+                ${serviceHTML(parkId)}
+            </ul>
+        </div>
+        `
+    }
+    return parkCardHTML
+    }
 
 
 
 
 const services = getServices ()
- export const serviceHTML = (parkId) => {
+  const serviceHTML = (parkId) => {
      let serviceHTMLString = ""
      for ( const parkService of parkServices) {
         if (parkId === parkService.parkId) {
             let serviceId = parkService.serviceId
             for (const service of services) {
                 if (service.id === parkService.serviceId) {
-                    serviceHTMLString += `<div>${service.serviceType}</div>`
+                    serviceHTMLString += `<div id="service--${service.id}">${service.serviceType}</div>`
         }
              
         }
