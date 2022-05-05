@@ -1,27 +1,42 @@
+* {
+    border: solid red 1px;
+}
+
+
 .logo__image {
     object-fit: cover;
   max-width: 400px;
   width: 100%;
 
 }
-
-.main 
-{
-    display: flex;
-    flex-direction: row;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    /* flex-wrap: wrap; */
-
-    /* justify-content: left, space-evenly; */
-    }
-.park-card {
+.main__body {
     display: flex;
     flex-direction: column;
+}
+.main 
+{ flex-direction: 
+    }
+
+    .parks__list {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+
+    .parks__header {
+        align-self: left;
+        flex-direction: row;
+    }
+
+.park-card {
+    display: flex;
    margin: 1em 20px;
    border: 2px blue solid;
    justify-content: center;
+   max-width: 20em;
+   flex-direction: column;
+   flex-basis: 33.333333%
+  
 }
 
 .main__guest {
@@ -45,10 +60,4 @@
   justify-content: center;
   text-align: center;*/
   margin-top: auto; 
-}
-.main__parkList{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }

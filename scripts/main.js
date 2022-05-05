@@ -8,16 +8,18 @@ import { footer } from "./footer.js";
 
 const applicationHTMLString = `${header()}
 <article class="main">
-    <section class="main__parkList">
-        <h2>Parks and Services</h2>
+<h2 class="parks__header">Parks and Services</h2>
+    
+        
         ${parkListHTML()}
-    </section>
+
     <section class="main__guest">
         <h2>Guests</h2>
         ${guestHTML()}
     </section>
-    ${footer()}
+    
 </article>
+${footer()}
 `
 
 
