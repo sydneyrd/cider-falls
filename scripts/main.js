@@ -2,6 +2,7 @@
 import { parkListHTML } from "./parks.js";
 import { guestHTML } from "./guests.js";
 import { header } from "./header.js";
+import { footer } from "./footer.js";
 
 
 
@@ -15,7 +16,7 @@ const applicationHTMLString = `${header()}
         <h2>Guests</h2>
         ${guestHTML()}
     </section>
-    
+    ${footer()}
 </article>
 `
 
