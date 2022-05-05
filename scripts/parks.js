@@ -7,11 +7,8 @@ import { getServices } from "./database.js";
 export const parkListHTML = () => {
     
     let htmlString = `
-    <section>
-        <h2>Park</h2>
-        <div>
-            ${parkCard()}
-        </div>
+    <section class="parks__list">
+      ${parkCard()}
     </section>
     `
     return htmlString
