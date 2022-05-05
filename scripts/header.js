@@ -1,9 +1,9 @@
 export const header = () => {
     let htmlString = ""
     htmlString += 
-    `<header>
+    `<header class="header">
         
-        <img  class="logo__image image--card" src="https://i.ibb.co/3CzYySV/Cider-Falls.png" />
+        <img  class="logo__image" src="https://i.ibb.co/3CzYySV/Cider-Falls.png" />
     </header>`
     return htmlString
 }
