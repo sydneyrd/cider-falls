@@ -10,11 +10,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: left, space-evenly;
-    flex-direction: row;
-
-
-
-}
+    }
 .park-card {
     display: flex;
     flex-direction: column;
