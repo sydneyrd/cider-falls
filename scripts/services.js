@@ -18,4 +18,3 @@ for (const service of services) {
     return serviceHTMLString
 }
 }
-
