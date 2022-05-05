@@ -6,8 +6,8 @@ import { footer } from "./footer.js";
 
 
 
-const applicationHTMLString = `${header()}
-<article class="main">
+const applicationHTMLString = //`${header()}
+`<article class="main">
 <h2 class="parks__header">Parks and Services</h2>
     
         
@@ -18,9 +18,9 @@ const applicationHTMLString = `${header()}
         ${guestHTML()}
     </section>
     
-</article>
-${footer()}
-`
+</article>`
+//${footer()}
+
 
 
 

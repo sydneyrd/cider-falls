@@ -5,38 +5,42 @@
 
 .logo__image {
     object-fit: cover;
-  max-width: 400px;
-  width: 100%;
+    max-width: 400px;
+    width: 100%;
 
 }
+
 .main__body {
     display: flex;
     flex-direction: column;
 }
-.main 
-{ flex-direction: 
-    }
 
-    .parks__list {
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
+/* .main {
+    flex-direction:
+} */
 
-    .parks__header {
-        align-self: left;
-        flex-direction: row;
-    }
+.parks__list {
+    display: flex;
+    flex-wrap: wrap;
+    display: grid;
+    grid: 250px / auto auto auto;
+    
+
+}
+
+.parks__header {
+    align-self: left;
+    flex-direction: row;
+}
 
 .park-card {
     display: flex;
-   margin: 1em 20px;
-   border: 2px blue solid;
-   justify-content: center;
-   max-width: 20em;
-   flex-direction: column;
-   flex-basis: 33.333333%
-  
+    margin: 1em 20px;
+    border: 2px blue solid;
+    justify-content: center;
+    max-width: 20em;
+    flex-direction: column;
+    flex-basis: 33.333333%
 }
 
 .main__guest {
@@ -44,7 +48,7 @@
     align-items: center;
     flex-direction: column;
     flex: 2;
-    font-family:'Paytone One', sans-serif;
+    font-family: 'Paytone One', sans-serif;
     position: fixed;
     right: 0;
     top: 10%;
@@ -55,9 +59,9 @@
 
 .footer {
     display: flex;
-  align-items: flex-end;
-  /* align-items:center;
+    align-items: flex-end;
+    /* align-items:center;
   justify-content: center;
   text-align: center;*/
-  margin-top: auto; 
+    margin-top: auto;
 }
