@@ -3,26 +3,32 @@ const database = {
         {
             id: 1,
             name: "Connor Lopshire",
+            currentPark: 1,
         },
         {
             id: 2,
             name: "Wes Harllee",
+            currentPark: 3,
         },
         {
             id: 3,
             name: "Mary Stevens",
+            currentPark: 2,
         },
         {
             id: 4,
             name: "Smokey the Bear",
+            currentPark: 2,
         },
         {
             id: 5,
             name: "JFK",
+            currentPark: 4,
         },
         {
             id: 6,
-            name: "BTK"
+            name: "BTK",
+            currentPark: 5,
         }
     ],
 
