@@ -1,0 +1,39 @@
+.logo__image {
+    object-fit: cover;
+  max-width: 400px;
+  width: 100%;
+
+}
+
+.main 
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left, space-evenly;
+    flex-direction: row;
+
+
+
+}
+.park-card {
+    display: flex;
+    flex-direction: column;
+   margin: 1em 20px;
+   border: 2px blue solid;
+   justify-content: center;
+}
+
+.main__guest {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex: 2;
+    font-family:'Paytone One', sans-serif;
+    position: fixed;
+    right: 0;
+    top: 10%;
+    width: 15em;
+    height: 300em;
+    margin-top: -2.5em;
+}
+
