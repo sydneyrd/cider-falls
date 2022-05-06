@@ -1,5 +1,4 @@
 * {
-    border: solid red 1px;
 }
 
 .header {
@@ -16,15 +15,18 @@
     object-fit: cover;
     max-width: 400px;
     width: 100%;
-
+    
 }
 
 .main__body {
+    border: solid blue 1px;
+   
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .main {
+    border: solid red 1px;
     /* width: 60%; */
     display: flex;
     flex-direction: row;
@@ -82,4 +84,11 @@
   justify-content: center;
   text-align: center;*/
     margin-top: auto;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
