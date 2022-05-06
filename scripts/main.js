@@ -8,7 +8,7 @@ import { footer } from "./footer.js";
 
 const applicationHTMLString = //`${header()}
 `<article class="main">
-<h2 class="parks__header">Parks and Services</h2>
+<h2 class="parks__header"></h2>
     
         
         ${parkListHTML()}
