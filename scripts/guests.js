@@ -5,7 +5,7 @@ let guestList = getGuests()
 export const guestHTML = () => {
     let guestHTMLString = ""
     for (const guest of guestList) {
-        guestHTMLString += `<div id="guest--${guest.id}">${guest.name}</div>`
+        guestHTMLString += `<div class="serve" id="guest--${guest.id}">${guest.name}</div>`
     }
     return guestHTMLString 
 }
