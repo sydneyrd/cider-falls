@@ -25,10 +25,12 @@ const parkCard = () => {
         parkCardHTML += `
         <div class="park-card">
             <h3 class="park-name" id="park--${park.id}">${park.name}</h3>
-            <h4>Services</h4>
-            <ul class="destination-card-service-list">
+           
+            <h4 class="serve">Services</h4>
+            <ul class="destination-card-service-list" >
                 ${serviceHTML(parkId)}
             </ul>
+            
         </div>
         `
     }
@@ -46,7 +48,7 @@ const services = getServices ()
             let serviceId = parkService.serviceId
             for (const service of services) {
                 if (service.id === parkService.serviceId) {
-                    serviceHTMLString += `<div id="service--${service.id}">${service.serviceType}</div>`
+                    serviceHTMLString += `<div class="serve" id="service--${service.id}">${service.serviceType}</div>`
         }
              
         }

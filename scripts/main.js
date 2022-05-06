@@ -14,7 +14,7 @@ const applicationHTMLString = //`${header()}
 ${parkListHTML()}
 
 <section class="main__guest">
-<h2>Guests</h2>
+<h2 class="park-name">Guests</h2>
 ${guestHTML()}
 </section>
 

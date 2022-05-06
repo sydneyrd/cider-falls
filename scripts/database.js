@@ -105,77 +105,97 @@ const database = {
         {
             id: 1,
             serviceId: 1,
-            parkId: 1
+            parkId: 1,
+            parkName: "Chamfort River",
         },
         {
             id: 2,
             serviceId: 2,
-            parkId: 1
+            parkId: 1,
+            parkName: "Chamfort River",
         },{
             id: 3,
             serviceId: 3,
-            parkId: 1
+            parkId: 1,
+            parkName: "Chamfort River",
         },{
             id: 4,
             serviceId: 4,
-            parkId: 2
+            parkId: 2,
+            parkName: "Lost Wolf Hiking Trail",
         },{
             id: 5,
             serviceId: 5,
-            parkId: 2
+            parkId: 2,
+            parkName: "Lost Wolf Hiking Trail",
         },{
             id: 6,
             serviceId: 6,
-            parkId: 2
+            parkId: 2,
+            parkName: "Lost Wolf Hiking Trail",
         },{
             id: 7,
             serviceId: 7,
-            parkId: 3
+            parkId: 3,
+            parkName: "The Lodge",
         },{
             id: 8,
             serviceId: 8,
-            parkId: 3
+            parkId: 3,
+            parkName: "The Lodge",
         },{
             id: 9,
             serviceId: 9,
-            parkId: 3
+            parkId: 3,
+            parkName: "The Lodge",
         },{
             id: 10,
             serviceId: 5,
-            parkId: 3
+            parkId: 3,
+            parkName: "The Lodge",
         },{
             id: 11,
             serviceId: 3,
-            parkId: 4
+            parkId: 4,
+            parkName: "Gander River",
         },{
             id: 12,
             serviceId: 4,
-            parkId: 4
+            parkId: 4,
+            parkName: "Gander River",
         },{
             id: 13,
             serviceId: 9,
-            parkId: 5
+            parkId: 5,
+            parkName: "Campgrounds",
         },{
             id: 14,
             serviceId: 7,
-            parkId: 5
+            parkId: 5,
+            parkName: "Campgrounds",
         },{
             id: 15,
             serviceId: 8,
-            parkId: 5
+            parkId: 5,
+            parkName: "Campgrounds",
         },{
             id: 16,
             serviceId: 4,
-            parkId: 6
+            parkId: 6,
+            parkName: "Pine Bluffs Trail",
+           
         },{
             id: 17,
             serviceId: 5,
-            parkId: 6
+            parkId: 6,
+            parkName: "Pine Bluffs Trail",
         },{
             id: 18,
             serviceId: 10,
-            parkId: 6
+            parkId: 6,
+            parkName: "Pine Bluffs Trail",
         }
+
     ]
 }
 
