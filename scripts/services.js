@@ -36,7 +36,7 @@ document.addEventListener(
      
  )
 
-
+//;hi hi hi //
 
 
 const getServiceArray = (service, parkArray) => {
